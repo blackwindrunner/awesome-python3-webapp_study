@@ -20,7 +20,9 @@ from coroweb import add_routes, add_static
 
 def init_jinja2(app, **kw):
     logging.info('init jinja2...')
+    print("aa")
     options = dict(
+
         autoescape = kw.get('autoescape', True),
         block_start_string = kw.get('block_start_string', '{%'),
         block_end_string = kw.get('block_end_string', '%}'),
