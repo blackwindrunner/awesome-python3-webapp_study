@@ -1,0 +1,6 @@
+DEBUG:asyncio:Using selector: KqueueSelector
+INFO:root:create database connectiong pool...
+DEBUG:root:using default value for created_at: 1466762270.648712
+DEBUG:root:using default value for admin: False
+DEBUG:root:using default value for id: 001466762270649cf7c0d426e354331969a61910b12144a000
+INFO:root:SQL:insert into `users` (`passwd`, `email`, `name`, `image`, `created_at`, `admin`, `id`) values (?, ?, ?, ?, ?, ?, ?)
